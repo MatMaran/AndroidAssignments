@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Assignment 1</string>
+    <string name="hello_string">Hello World and CP470 Class!!!</string>
+    <string name="buttonText">I\'m a button!</string>
+</resources>
