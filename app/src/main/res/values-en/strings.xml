@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Assignment 1</string>
-    <string name="hello_string">Guten Tag World and CP470 Class!!!</string>
-    <string name="buttonText">I\'m a button but in ENGLISH!</string>
+    <string name="hello_string">Hello World!!!</string>
+    <string name="buttonText">I\'m an English button!</string>
 </resources>
