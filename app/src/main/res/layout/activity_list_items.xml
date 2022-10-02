@@ -12,18 +12,21 @@
     android:rowCount="2"
     >
     <RadioButton
+        android:id="@+id/radiobtn"
         android:text="@string/radio"
         android:layout_columnWeight="1"
         android:layout_gravity="fill_horizontal"
         android:gravity="center"
     />
     <CheckBox
+        android:id="@+id/checkbx"
         android:text="@string/checkbox"
         android:layout_columnWeight="1"
         android:layout_gravity="fill_horizontal"
         android:gravity="center"
     />
     <Switch
+        android:id="@+id/switchclick"
         android:text="@string/switchbtn"
         android:layout_width="wrap_content"
         android:layout_gravity="fill_horizontal"
@@ -32,12 +35,12 @@
     />
 
     <ImageButton
+        android:id="@+id/imagebtn"
         android:src="@android:drawable/ic_menu_camera"
         android:layout_columnWeight="1"
         android:layout_gravity="fill_horizontal"
         android:gravity="center"
+
     />
-
-
 
 </GridLayout>
