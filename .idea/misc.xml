@@ -5,9 +5,12 @@
       <map>
         <entry key="..\:/Users/Mat Maran/AndroidStudioProjects/AndroidAssignments/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1215" />
         <entry key="..\:/Users/Mat Maran/AndroidStudioProjects/AndroidAssignments/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Mat Maran/AndroidStudioProjects/AndroidAssignments/app/src/main/res/layout/activity_chat_window.xml" value="0.23854166666666668" />
         <entry key="..\:/Users/Mat Maran/AndroidStudioProjects/AndroidAssignments/app/src/main/res/layout/activity_list_items.xml" value="0.176" />
         <entry key="..\:/Users/Mat Maran/AndroidStudioProjects/AndroidAssignments/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Mat Maran/AndroidStudioProjects/AndroidAssignments/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Mat Maran/AndroidStudioProjects/AndroidAssignments/app/src/main/res/layout/chat_row_incoming.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/Mat Maran/AndroidStudioProjects/AndroidAssignments/app/src/main/res/layout/chat_row_outgoing.xml" value="0.2" />
         <entry key="..\:/Users/Mat Maran/AndroidStudioProjects/AndroidAssignments/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1595" />
       </map>
     </option>

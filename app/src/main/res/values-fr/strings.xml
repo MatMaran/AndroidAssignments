@@ -21,4 +21,7 @@
     <string name="dlg_title">Vous avez terminé?</string>
     <string name="response">Mes informations à partager</string>
     <string name="toastex">ListItemsActivity passé: </string>
+    <string name="button2Text">Démarrer le chat</string>
+    <string name="sendbtn">Envoyer</string>
+    <string name="newText">Nouveau texte</string>
 </resources>

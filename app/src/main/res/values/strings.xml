@@ -20,4 +20,7 @@
     <string name="dlg_title">Are you finished?</string>
     <string name="response">My information to share</string>
     <string name="toastex">ListItemsActivity passed: </string>
+    <string name="button2Text">Start Chat</string>
+    <string name="sendbtn">Send</string>
+    <string name="newText">New Text</string>
 </resources>
