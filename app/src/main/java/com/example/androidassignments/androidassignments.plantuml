@@ -43,11 +43,29 @@ title __ANDROIDASSIGNMENTS's Class Diagram__\n
   
 
   namespace com.example.androidassignments {
+    class com.example.androidassignments.LoginActivity {
+        {static} # ACTIVITY_NAME : String
+        {static} ~ KEY_PASS : String
+        {static} ~ KEY_USER : String
+        # onCreate()
+        # onDestroy()
+        # onPause()
+        # onResume()
+        # onStart()
+        # onStop()
+    }
+  }
+  
+
+  namespace com.example.androidassignments {
     class com.example.androidassignments.MainActivity {
         {static} # ACTIVITY_NAME : String
         # rc : Integer
+        {static} ~ helloWorldStr : String
+        {static} ~ toastexample : String
         - btn : Button
         - btn2 : Button
+        {static} - helloWorld : TextView
         # onActivityResult()
         # onCreate()
         # onDestroy()
@@ -63,6 +81,7 @@ title __ANDROIDASSIGNMENTS's Class Diagram__\n
   com.example.androidassignments.ChatWindow +-down- com.example.androidassignments.ChatWindow.ChatAdapter
   com.example.androidassignments.ChatWindow.ChatAdapter -up-|> android.widget.ArrayAdapter
   com.example.androidassignments.LIstItemsActivity -up-|> androidx.appcompat.app.AppCompatActivity
+  com.example.androidassignments.LoginActivity -up-|> androidx.appcompat.app.AppCompatActivity
   com.example.androidassignments.MainActivity -up-|> androidx.appcompat.app.AppCompatActivity
 
 

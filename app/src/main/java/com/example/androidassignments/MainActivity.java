@@ -7,12 +7,16 @@ import android.util.Log;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     protected static final String ACTIVITY_NAME = "MainActivity";
     protected Integer rc = 10;
     private Button btn, btn2;
+    private static TextView helloWorld;
+    static String helloWorldStr;
+    static String toastexample;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         btn = (Button)findViewById(R.id.button);
         btn2 = (Button)findViewById(R.id.button2);
+        helloWorld = (TextView) findViewById(R.id.textView);
+
+        helloWorldStr = helloWorld.getText().toString();
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     }
     protected void onActivityResult(int requestCode, int responseCode, Intent data) {
         super.onActivityResult(requestCode,responseCode,data);
-        String toastexample;
+
         if (requestCode == 10) {
             String messagePassed = data.getStringExtra("Response");
             toastexample = getString(R.string.toastex);
