@@ -13,7 +13,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     protected static final String ACTIVITY_NAME = "MainActivity";
     protected Integer rc = 10;
-    private Button btn, btn2;
+    private Button btn, btn2, btn3;
     private static TextView helloWorld;
     static String helloWorldStr;
     static String toastexample;
@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         btn = (Button)findViewById(R.id.button);
         btn2 = (Button)findViewById(R.id.button2);
+        btn3 = (Button)findViewById(R.id.button3);
         helloWorld = (TextView) findViewById(R.id.textView);
 
         helloWorldStr = helloWorld.getText().toString();
@@ -39,6 +40,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 startActivityForResult(new Intent(MainActivity.this, ChatWindow.class),rc);
                 Log.i(ACTIVITY_NAME,"User clicked Start Chat");
+            }
+        });
+
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, TestToolbar.class));
+                Log.i(ACTIVITY_NAME,"User clicked Test Toolbar");
             }
         });
     }

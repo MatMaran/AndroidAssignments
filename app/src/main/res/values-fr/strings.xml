@@ -24,4 +24,10 @@
     <string name="button2Text">Démarrer le chat</string>
     <string name="sendbtn">Envoyer</string>
     <string name="newText">Nouveau texte</string>
+    <string name="button3Text">Barre D\'Utils de Test</string>
+    <string name="about">Version 1.0, par Mathumithan Manimaran</string>
+    <string name="snackbarnotif">Vous avez sélectionné l\'élément 1</string>
+    <string name="title">Tu veux y retourner?</string>
+    <string name="ok">Oui</string>
+    <string name="cancel">Non</string>
 </resources>

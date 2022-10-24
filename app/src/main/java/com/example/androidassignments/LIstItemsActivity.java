@@ -6,6 +6,8 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.Color;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.os.Bundle;
@@ -16,12 +18,17 @@ import android.widget.CompoundButton;
 import android.widget.Switch;
 import android.widget.Toast;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+
 public class LIstItemsActivity extends AppCompatActivity {
     protected static final String ACTIVITY_NAME = "ListItemsActivity";
     private ImageButton imbtn;
     private Switch swtch;
     private CheckBox chbox;
     protected Integer REQUEST_IMAGE_CAPTURE = 10;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Log.i(ACTIVITY_NAME,"In onCreate()");
@@ -35,6 +42,7 @@ public class LIstItemsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                imbtn.setBackgroundColor(Color.TRANSPARENT);
                 startActivityForResult(intent, 10);
             }
         });

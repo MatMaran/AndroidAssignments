@@ -23,4 +23,10 @@
     <string name="button2Text">Start Chat</string>
     <string name="sendbtn">Send</string>
     <string name="newText">New Text</string>
+    <string name="button3Text">Test Toolbar</string>
+    <string name="about">Version 1.0, by Mathumithan Manimaran</string>
+    <string name="snackbarnotif">You selected item 1</string>
+    <string name="title">Do you want to go back?</string>
+    <string name="ok">Yes</string>
+    <string name="cancel">No</string>
 </resources>
